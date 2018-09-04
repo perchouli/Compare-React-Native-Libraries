@@ -1,0 +1,22 @@
+{
+    "extends": "standard",
+    "plugins": [
+        "react",
+        "standard",
+        "promise"
+    ],
+    "rules": {
+        "semi": ["error", "always"],
+        "object-curly-spacing": ["error", "always"],
+        "react/jsx-uses-react": 1,
+        "react/jsx-uses-vars": 1,
+        "one-var": 0,
+        "prefer-const": ["error", {
+            "destructuring": "any",
+            "ignoreReadBeforeAssign": false
+        }]
+    },
+    "globals": {
+        "fetch": true
+    }
+}
